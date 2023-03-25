@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(dodge_asteroids)
+find_package(Curses REQUIRED)
+include_directories(${CURSES_INCLUDE_DIR})
+add_executable(dodge_asteroids main.cpp)
